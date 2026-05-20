@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #a1bffb;
+    color: #333;
+}
+
+/* HEADER CON IMAGEN */
+header {
+    background-image: url("img/6724ff4c00221ce2a558dc86_6724ff3fccb5e673b61a2ac0_GbPYiPBbQAA-EcQ (2).webp");
+    background-size: cover;
+    background-position: center;
+
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CUADRO OSCURO ENCIMA DE LA IMAGEN */
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+
+    padding: 30px;
+    border-radius: 15px;
+
+    text-align: center;
+}
+
+/* TITULO */
+header h1 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+/* NAV */
+nav a {
+    text-decoration: none;
+
+    color: rgb(0, 0, 0);
+
+    background: rgba(37, 212, 235, 0.9);
+
+    padding: 10px 20px;
+
+    margin: 5px;
+
+    border-radius: 8px;
+
+    display: inline-block;
+
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #f6fa2d;
+    transform: scale(1.05);
+}
+
+/* MAIN */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+/* SECCIÓN */
+.bienvenida img {
+    width: 80%;
+    max-width: 700px;
+
+    border-radius: 15px;
+
+    margin-top: 20px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* CUADRO DE TEXTO */
+.cuadro-texto {
+    background: rgb(255, 255, 255);
+
+    display: inline-block;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    margin-bottom: 20px;
+}
+
+
+/* FOOTER */
+footer {
+    background: #111827;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 40px;
+}
+
+
+.cuadro-texto {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    width: 80%;
+    max-width: 700px;
+
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* Tamaño del texto */
+.cuadro-texto p {
+    font-size: 20px;
+    line-height: 1.0;
+}
+
+/* Texto más grande */
+.texto-grande {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* extra */
+.contenido {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    padding: 40px;
+}
+
+.contenido img {
+    width: 300px;
+
+    border-radius: 15px;
+}
+
+.texto {
+    max-width: 500px;
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+/*MAS EXTRAS*/
+
+.contenedor {
+    display: flex;       /* elementos en fila */
+    gap: 20px;           /* espacio entre imágenes */
+    justify-content: center;
+}
+
+.contenedor img {
+    width: 300px;
+    height: 400px;
+}
